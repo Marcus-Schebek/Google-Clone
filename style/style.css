@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fdfbfb;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+* img {
+  width: 272px;
+}
+
+header {
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header #links {
+  margin-right: 30px;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #links a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 30px;
+  font-size: small;
+}
+
+header #links a:hover {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.87);
+}
+
+#advancedHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-size: small;
+}
+
+#advancedHeader .googleLittleLogo {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#advancedHeader .googleLittleLogo img {
+  width: 70px;
+  height: auto;
+}
+
+#AdvancedSearchHeader {
+  border-bottom: 1px solid #ebebeb;
+}
+
+#AdvancedSearchHeader h3 {
+  color: #d93025;
+  margin: 15px 0 20px 15px;
+  font-weight: normal;
+}
+
+.inputOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1140%;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+.inputOne .textDesHeading {
+  font-size: 16px;
+  min-width: 16px;
+  width: 16%;
+  font-weight: 500;
+  color: #333;
+}
+
+.inputOne .textDes {
+  width: 200px;
+  font-size: 13px;
+}
+
+.inputOne .inputField {
+  min-width: 167px;
+  width: 50%;
+}
+
+.inputOne .inputField input {
+  border-radius: 1px;
+  border: 2px solid #d9d9d9;
+  font-size: 12px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 95%;
+}
+
+.inputOne .button {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.inputOne .button input {
+  background-color: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  color: #fff;
+  height: 40px;
+  min-width: 120px;
+  border: 1px solid #4d90fe;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.inputOne .button input:hover {
+  -webkit-box-shadow: 0 0 5px #4787ed;
+          box-shadow: 0 0 5px #4787ed;
+}
+
+.inputOne .toDo {
+  width: 32%;
+  min-width: 16px;
+  color: #555;
+  font-weight: normal;
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+span {
+  color: #666;
+  font-family: monospace;
+  font-size: 14px;
+  white-space: pre;
+}
+
+main {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #inputSearch {
+  height: 11px;
+  width: 584px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border: 1px solid #def1e5;
+  border-radius: 24px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #inputSearch i {
+  color: lightgray;
+}
+
+main #inputSearch input {
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
+  margin-left: 7px;
+  font-size: 1em;
+}
+
+main #inputSearch:hover {
+  -webkit-box-shadow: 0 0 3px gray;
+          box-shadow: 0 0 3px gray;
+}
+
+main #buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #buttons input {
+  background-color: #f2f4f7;
+  border: 1px solid #f8f9fe;
+  outline: 0px auto;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 20px 5px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8vh;
+  color: #999;
+}
+/*# sourceMappingURL=style.css.map */
